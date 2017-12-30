@@ -1,0 +1,30 @@
+.search {
+  width: 100%;
+  height: 3em;
+  border-radius: 8px;
+}
+
+.title {
+      margin-top: 15%;
+}
+
+.navbar {
+  box-shadow: 0 14px 27px #16181e;
+}
+
+.navbar-toggler-icon {
+  color: #8e95a5!important;
+}
+
+.nav-link {
+  color: #8e95a5!important;
+}
+
+.btn {
+  background: #F35154!important;
+  color: white!important;
+}
+
+body {
+  background-color: #1e2129;
+}
