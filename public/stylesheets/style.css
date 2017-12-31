@@ -28,3 +28,13 @@
 body {
   background-color: #1e2129;
 }
+
+.carousel-caption {
+  left: 10%;
+  text-align: left;
+}
+
+.carousel-indicators {
+  left: 12%;
+  text-align: left;
+}
