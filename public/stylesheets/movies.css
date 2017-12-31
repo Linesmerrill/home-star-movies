@@ -6,3 +6,7 @@ img {
 .text-white {
   color: white;
 }
+
+.poster-img {
+  border-radius: 5px;
+}

@@ -77,3 +77,12 @@ img {
   float: right;
   padding-top: 0.5em;
 }
+
+.download-btn {
+  float: right;
+}
+
+.iframe-video {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
