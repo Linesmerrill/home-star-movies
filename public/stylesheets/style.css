@@ -32,14 +32,48 @@ body {
 .carousel-caption {
   left: 10%;
   text-align: left;
+  float: left;
+  position: absolute;
+  top: -29px;
+}
+
+.caption-background {
+    position: absolute;
+    top: 325px;
+    height: 195px;
+    background: linear-gradient(rgba(31,34,41,.4), #1f2229);
+}
+
+.caption-footer {
+  position: absolute;
+  height: 500px;
+  top: 520px;
+    background-color:  #1f2229;
 }
 
 .carousel-indicators {
-  left: 12%;
-  text-align: left;
+  position: absolute;
+  top: 475px;
+  left: 14%;
+}
+
+.carousel-data {
+  height: auto;
+  position: absolute;
+  width: 100%;
 }
 
 img {
   width: 100%;
   height: auto;
+}
+
+#controls {
+  position: absolute;
+    top: 260px;
+}
+
+.form-inline {
+  float: right;
+  padding-top: 0.5em;
 }
