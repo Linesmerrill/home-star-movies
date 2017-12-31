@@ -10,3 +10,11 @@ img {
 .poster-img {
   border-radius: 5px;
 }
+
+.row {
+  height: 200px;
+}
+
+.col-sm-2 {
+  text-align: center;
+}

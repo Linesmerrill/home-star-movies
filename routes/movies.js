@@ -18,4 +18,16 @@ router.get('/americanassassin', function(req, res, next) {
   res.render('americanassassin', { title: 'Express' });
 });
 
+router.get('/castaway', function(req, res, next) {
+  res.render('castaway', { title: 'Express' });
+});
+
+router.get('/deepwaterhorizon', function(req, res, next) {
+  res.render('deepwaterhorizon', { title: 'Express' });
+});
+
+router.get('/theworldsend', function(req, res, next) {
+  res.render('theworldsend', { title: 'Express' });
+});
+
 module.exports = router;
