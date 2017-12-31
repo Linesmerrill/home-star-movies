@@ -34,14 +34,14 @@ body {
   text-align: left;
   float: left;
   position: absolute;
-  top: -29px;
+  top: 300px;
 }
 
 .caption-background {
     position: absolute;
-    top: 325px;
-    height: 195px;
-    background: linear-gradient(rgba(31,34,41,.4), #1f2229);
+    top: 0;
+    height: 539px;
+    background: linear-gradient(rgba(31,34,41,.1), #1f2229);
 }
 
 .caption-footer {
