@@ -50,4 +50,12 @@ router.get('/frozen', function(req, res, next) {
   res.render('frozen', { title: 'Express' });
 });
 
+router.get('/fury', function(req, res, next) {
+  res.render('fury', { title: 'Express' });
+});
+
+router.get('/groundhogday', function(req, res, next) {
+  res.render('groundhogday', { title: 'Express' });
+});
+
 module.exports = router;
