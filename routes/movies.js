@@ -30,4 +30,24 @@ router.get('/theworldsend', function(req, res, next) {
   res.render('theworldsend', { title: 'Express' });
 });
 
+router.get('/cars', function(req, res, next) {
+  res.render('cars', { title: 'Express' });
+});
+
+router.get('/edgeoftomorrow', function(req, res, next) {
+  res.render('edgeoftomorrow', { title: 'Express' });
+});
+
+router.get('/elf', function(req, res, next) {
+  res.render('elf', { title: 'Express' });
+});
+
+router.get('/firefox', function(req, res, next) {
+  res.render('firefox', { title: 'Express' });
+});
+
+router.get('/frozen', function(req, res, next) {
+  res.render('frozen', { title: 'Express' });
+});
+
 module.exports = router;
