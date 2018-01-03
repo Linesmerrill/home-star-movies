@@ -78,4 +78,24 @@ router.get('/hpandthegof', function(req, res, next) {
   res.render('hpandthegof', { title: 'Express' });
 });
 
+router.get('/inception', function(req, res, next) {
+  res.render('inception', { title: 'Express' });
+});
+
+router.get('/independencedayresurgence', function(req, res, next) {
+  res.render('independencedayresurgence', { title: 'Express' });
+});
+
+router.get('/raidersofthelostark', function(req, res, next) {
+  res.render('raidersofthelostark', { title: 'Express' });
+});
+
+router.get('/ijandthetod', function(req, res, next) {
+  res.render('ijandthetod', { title: 'Express' });
+});
+
+router.get('/ijandthelc', function(req, res, next) {
+  res.render('ijandthelc', { title: 'Express' });
+});
+
 module.exports = router;
